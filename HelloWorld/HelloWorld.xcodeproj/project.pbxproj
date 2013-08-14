@@ -18,6 +18,8 @@
 		E49A4C6B17BB392700B21B0C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E49A4C6A17BB392700B21B0C /* Default-568h@2x.png */; };
 		E49A4C6E17BB392700B21B0C /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A4C6D17BB392700B21B0C /* MCViewController.m */; };
 		E49A4C7117BB392700B21B0C /* MCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49A4C6F17BB392700B21B0C /* MCViewController.xib */; };
+		E49A4C7C17BB69A700B21B0C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E49A4C7B17BB69A700B21B0C /* icon.png */; };
+		E49A4C7F17BB69AE00B21B0C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E49A4C7E17BB69AE00B21B0C /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		E49A4C6C17BB392700B21B0C /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
 		E49A4C6D17BB392700B21B0C /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
 		E49A4C7017BB392700B21B0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MCViewController.xib; sourceTree = "<group>"; };
+		E49A4C7B17BB69A700B21B0C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		E49A4C7E17BB69AE00B21B0C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		E49A4C5B17BB392700B21B0C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E49A4C7E17BB69AE00B21B0C /* icon@2x.png */,
+				E49A4C7B17BB69A700B21B0C /* icon.png */,
 				E49A4C5C17BB392700B21B0C /* HelloWorld-Info.plist */,
 				E49A4C5D17BB392700B21B0C /* InfoPlist.strings */,
 				E49A4C6017BB392700B21B0C /* main.m */,
@@ -164,6 +170,8 @@
 				E49A4C6917BB392700B21B0C /* Default@2x.png in Resources */,
 				E49A4C6B17BB392700B21B0C /* Default-568h@2x.png in Resources */,
 				E49A4C7117BB392700B21B0C /* MCViewController.xib in Resources */,
+				E49A4C7C17BB69A700B21B0C /* icon.png in Resources */,
+				E49A4C7F17BB69AE00B21B0C /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 				E49A4C7617BB392700B21B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
