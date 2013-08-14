@@ -29,6 +29,13 @@
 - (IBAction)buttonPressed:(UIButton *)sender {
     NSString *title = [sender titleForState:UIControlStateNormal];
     NSString *status = [NSString stringWithFormat:@"%@ button pressed.", title];
-    _lbl_status.text = status;
+    
+    NSMutableAttributedString *styled_status = [[NSMutableAttributedString alloc]initWithString:status];
+    NSDictionary *attributes = @{
+    NSFontAttributeName : [UIFont boldSystemFontOfSize:_lbl_status.font.pointSize]
+    };
+    NSRange name_range = [status rangeOfString:title];
+    [styled_status setAttributes:attributes range:name_range];
+    _lbl_status.attributedText = styled_status;
 }
 @end
