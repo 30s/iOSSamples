@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MCViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *lbl_status;
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end
