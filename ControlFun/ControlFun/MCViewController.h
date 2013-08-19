@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface MCViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txt_name;
+@property (weak, nonatomic) IBOutlet UITextField *txt_number;
 
+- (IBAction)textFieldDoneEditing:(id)sender;
 @end
