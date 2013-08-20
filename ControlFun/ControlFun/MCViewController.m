@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.lbl_slider.text = @"50";
 }
 
 - (void)didReceiveMemoryWarning
@@ -33,6 +34,11 @@
 - (IBAction)backgroundTap:(id)sender {
     [self.txt_name resignFirstResponder];
     [self.txt_number resignFirstResponder];
+}
+
+- (IBAction)sliderChanged:(UISlider *)sender {
+    int progress = lroundf(sender.value);
+    self.lbl_slider.text = [NSString stringWithFormat:@"%d", progress];
 }
 
 @end

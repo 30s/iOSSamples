@@ -11,7 +11,9 @@
 @interface MCViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *txt_name;
 @property (weak, nonatomic) IBOutlet UITextField *txt_number;
+@property (weak, nonatomic) IBOutlet UILabel *lbl_slider;
 
 - (IBAction)textFieldDoneEditing:(id)sender;
 - (IBAction)backgroundTap:(id)sender;
+- (IBAction)sliderChanged:(UISlider *)sender;
 @end
