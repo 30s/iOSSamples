@@ -13,4 +13,5 @@
 @property (weak, nonatomic) IBOutlet UITextField *txt_number;
 
 - (IBAction)textFieldDoneEditing:(id)sender;
+- (IBAction)backgroundTap:(id)sender;
 @end

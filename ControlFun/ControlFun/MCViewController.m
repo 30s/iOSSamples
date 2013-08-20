@@ -30,4 +30,9 @@
     [sender resignFirstResponder];
 }
 
+- (IBAction)backgroundTap:(id)sender {
+    [self.txt_name resignFirstResponder];
+    [self.txt_number resignFirstResponder];
+}
+
 @end
