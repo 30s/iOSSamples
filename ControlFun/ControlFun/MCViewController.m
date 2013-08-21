@@ -41,4 +41,13 @@
     self.lbl_slider.text = [NSString stringWithFormat:@"%d", progress];
 }
 
+- (IBAction)switchChanged:(UISwitch *)sender {
+    BOOL setting = sender.isOn;
+    [self.swt_left setOn:setting animated:YES];
+    [self.swt_right setOn:setting animated:YES];
+}
+
+- (IBAction)toggleControls:(UISegmentedControl *)sender {
+}
+
 @end

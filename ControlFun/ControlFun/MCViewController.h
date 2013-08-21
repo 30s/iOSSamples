@@ -12,8 +12,12 @@
 @property (weak, nonatomic) IBOutlet UITextField *txt_name;
 @property (weak, nonatomic) IBOutlet UITextField *txt_number;
 @property (weak, nonatomic) IBOutlet UILabel *lbl_slider;
+@property (weak, nonatomic) IBOutlet UISwitch *swt_left;
+@property (weak, nonatomic) IBOutlet UISwitch *swt_right;
 
 - (IBAction)textFieldDoneEditing:(id)sender;
 - (IBAction)backgroundTap:(id)sender;
 - (IBAction)sliderChanged:(UISlider *)sender;
+- (IBAction)switchChanged:(UISwitch *)sender;
+- (IBAction)toggleControls:(UISegmentedControl *)sender;
 @end
